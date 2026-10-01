@@ -13,7 +13,6 @@ body {
 }
 
 
-/* Navigasi */
 
 header {
     background-color: white;
@@ -51,7 +50,6 @@ header {
 }
 
 
-/* Halaman utama */
 
 .home {
     width: 90%;
@@ -153,7 +151,6 @@ header {
 }
 
 
-/* Bagian umum */
 
 .bagian {
     width: 90%;
@@ -184,7 +181,6 @@ header {
 }
 
 
-/* Tentang */
 
 .tentang {
     display: grid;
@@ -237,7 +233,6 @@ header {
 }
 
 
-/* Kegiatan */
 
 .kegiatan {
     background-color: #191b24;
@@ -322,7 +317,6 @@ header {
 }
 
 
-/* Tabel jadwal */
 
 .tabel-wrapper {
     overflow-x: auto;
@@ -363,7 +357,6 @@ header {
 }
 
 
-/* Date dan Time */
 
 .waktu {
     text-align: center;
@@ -388,7 +381,6 @@ header {
 }
 
 
-/* Footer */
 
 footer {
     background-color: #191b24;
