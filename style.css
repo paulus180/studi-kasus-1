@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f5f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* Navigasi */
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.navbar {
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.menu {
+    display: flex;
+    gap: 28px;
+}
+
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.menu a:hover {
+    color: #5965e8;
+}
+
+
+/* Halaman utama */
+
+.home {
+    width: 90%;
+    max-width: 1050px;
+
+    margin: 48px auto;
+
+    padding: 60px;
+
+    background-color: #191b24;
+    color: white;
+
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.foto img {
+    width: 190px;
+    height: 190px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+}
+
+
+.perkenalan {
+    max-width: 600px;
+}
+
+
+.sapaan {
+    color: #9ba4ff;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+}
+
+
+.perkenalan h1 {
+    font-size: 45px;
+
+    margin: 5px 0;
+}
+
+
+.perkenalan h2 {
+    font-size: 20px;
+
+    font-weight: normal;
+
+    color: #ccc;
+
+    margin-bottom: 15px;
+}
+
+
+.perkenalan p {
+    color: #d5d5d5;
+}
+
+
+.link-sosial {
+    margin-top: 22px;
+
+    display: flex;
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+
+.link-sosial a {
+    background-color: white;
+
+    color: #191b24;
+
+    text-decoration: none;
+
+    padding: 8px 15px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+}
+
+
+.link-sosial a:hover {
+    background-color: #5965e8;
+
+    color: white;
+}
+
+
+/* Bagian umum */
+
+.bagian {
+    width: 90%;
+    max-width: 1050px;
+
+    margin: 70px auto;
+}
+
+
+.judul {
+    margin-bottom: 25px;
+}
+
+
+.judul p {
+    color: #5965e8;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+.judul h2 {
+    font-size: 30px;
+}
+
+
+/* Tentang */
+
+.tentang {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+
+.kotak {
+    background-color: white;
+
+    padding: 25px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 12px;
+}
+
+
+.kotak h3 {
+    margin-bottom: 12px;
+}
+
+
+.kotak p {
+    color: #666;
+
+    margin-bottom: 10px;
+}
+
+
+.kotak table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+.kotak td {
+    padding: 9px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+.kotak td:first-child {
+    font-weight: bold;
+}
+
+
+/* Kegiatan */
+
+.kegiatan {
+    background-color: #191b24;
+
+    color: white;
+
+    padding: 65px 5%;
+}
+
+
+.tengah {
+    text-align: center;
+}
+
+
+.tengah h2 {
+    margin-bottom: 30px;
+}
+
+
+.daftar-kegiatan {
+    max-width: 1050px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.kegiatan-box {
+    background-color: #242631;
+
+    padding: 25px;
+
+    border-radius: 12px;
+}
+
+
+.kegiatan-box span {
+    color: #9ba4ff;
+
+    font-size: 13px;
+}
+
+
+.kegiatan-box h3,
+.kegiatan-box h4,
+.kegiatan-box h5 {
+    margin: 18px 0 10px;
+}
+
+
+.kegiatan-box p {
+    color: #bbb;
+}
+
+
+.tambahan {
+    max-width: 1050px;
+
+    margin: 25px auto 0;
+
+    padding: 20px;
+
+    border-left: 3px solid #5965e8;
+}
+
+
+.tambahan h6 {
+    font-size: 15px;
+
+    margin-bottom: 5px;
+}
+
+
+.tambahan p {
+    color: #bbb;
+}
+
+
+/* Tabel jadwal */
+
+.tabel-wrapper {
+    overflow-x: auto;
+}
+
+
+.jadwal {
+    width: 100%;
+
+    background-color: white;
+
+    border-collapse: collapse;
+
+    border: 1px solid #ddd;
+}
+
+
+.jadwal th {
+    background-color: #191b24;
+
+    color: white;
+
+    padding: 14px;
+
+    text-align: left;
+}
+
+
+.jadwal td {
+    padding: 14px;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+.jadwal tr:hover {
+    background-color: #f1f2ff;
+}
+
+
+/* Date dan Time */
+
+.waktu {
+    text-align: center;
+
+    background-color: #e9ebff;
+
+    padding: 45px 20px;
+}
+
+
+.waktu p:first-child {
+    color: #5965e8;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+}
+
+
+.waktu h2 {
+    margin: 8px 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #191b24;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+}
+
+
+footer p {
+    color: #aaa;
+
+    margin: 5px 0 15px;
+}
+
+
+footer small {
+    color: #777;
+}
+
+
+/* Tampilan HP */
+
+@media screen and (max-width: 700px) {
+
+    .navbar {
+        justify-content: center;
+    }
+
+
+    .menu {
+        gap: 15px;
+    }
+
+
+    .home {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 40px 25px;
+    }
+
+
+    .perkenalan h1 {
+        font-size: 35px;
+    }
+
+
+    .link-sosial {
+        justify-content: center;
+    }
+
+
+    .tentang {
+        grid-template-columns: 1fr;
+    }
+
+
+    .daftar-kegiatan {
+        grid-template-columns: 1fr;
+    }
+
+}
